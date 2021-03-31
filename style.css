@@ -1,0 +1,52 @@
+body{
+    background-color: #f6dfeb;
+}
+
+img{
+    margin: 5px;
+}
+.container{
+    width: 70%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin-bottom: 5px;
+    margin-left: 15%;
+}
+
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{ 
+    background-color: #e4bad4;
+    width: 160px;
+    height: 160px;
+    box-shadow: 0 0 2px #000000;
+    margin: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    text-align: center;
+    transition: 1s;
+}
+.square:hover{
+    background-color: #caf7e3;
+
+    
+}
+
+a{
+    font-size: larger;
+}
+
+h1{
+    text-align: center;
+}
+H2{
+    text-align: center;
+}
