@@ -9,42 +9,173 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <div class="container"><h1>CTF</h1></div>
+    <div class="container"><img src="ctf.jpeg" id="heading"></div>
     <div class="container">
         <h2>WEB CHALLENGES</h2>
         <div class="box">
-            <a href="challenge1/index.html" target="_blank"><div class="square"><h3><u>CHALLENGE 1</u></h3></div></a>
-            <a href="challenge2/index.html" target="_blank"><div class="square"><h3><u>CHALLENGE 2</u></h3></div></a>
-            <div class="square"><h3><u>CHALLENGE 3</u></h3></div>
-            <div class="square"><h3><u>CHALLENGE 4</u></h3></div>
+            <div class="square">
+                <h3>CHALLENGE 1</h3>
+                <a href="challenge1/index.html" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag1" placeholder="Enter your flag">
+                    <button onclick="c1(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 2</h3>
+                <a href="challenge2/index.html" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag2" placeholder="Enter your flag">
+                    <button onclick="c2(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 3</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag3" placeholder="Enter your flag">
+                    <button onclick="c3(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 4</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag4" placeholder="Enter your flag">
+                    <button onclick="c4(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square points">
+                <h3>Points</h3>
+                <p id="web">0</p>                
+            </div>
         </div>
     </div>
     <div class="container">
         <h2>CRYPTOGRAPHY</h2>
         <div class="box">
-            <a href="challenge3/index.html" target="_blank"><div class="square"><h3><u>CHALLENGE 1</u></h3></div></a>
-            <a href="challenge5/index.html" target="_blank"><div class="square"><h3><u>CHALLENGE 2</u></h3></div></a>
-            <div class="square"><h3><u>CHALLENGE 3</u></h3></div>
-            <div class="square"><h3><u>CHALLENGE 4</u></h3></div>
+            <div class="square">
+                <h3>CHALLENGE 5</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag5" placeholder="Enter your flag">
+                    <button onclick="c5(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 6</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag6" placeholder="Enter your flag">
+                    <button onclick="c6(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 7</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag7" placeholder="Enter your flag">
+                    <button onclick="c7(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 8</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag8" placeholder="Enter your flag">
+                    <button onclick="c8(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square points">
+                <h3>Points</h3>
+                <p id="crypto">0</p>                
+            </div>
         </div>
     </div>
     <div class="container">
         <h2>REVERSE ENGINEERING</h2>
         <div class="box">
-            <a href="challenge4/index.html" target="_blank"><div class="square"><h3><u>CHALLENGE 1</u></h3></div></a>
-            <a href="challenge7/index.html" target="_blank"><div class="square"><h3><u>CHALLENGE 2</u></h3></div></a>
-            <div class="square"><h3><u>CHALLENGE 3</u></h3></div>
-            <div class="square"><h3><u>CHALLENGE 4</u></h3></div>
+            <div class="square">
+                <h3>CHALLENGE 9</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag9" placeholder="Enter your flag">
+                    <button onclick="c9(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 10</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag10" placeholder="Enter your flag">
+                    <button onclick="c10(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 11</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag11" placeholder="Enter your flag">
+                    <button onclick="c11(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 12</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag12" placeholder="Enter your flag">
+                    <button onclick="c12(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square points">
+                <h3>Points</h3>
+                <p id="reverse">0</p>                
+            </div>
         </div>
     </div>
     <div class="container">
         <h2>OSINT</h2>
         <div class="box">
-            <a href="challenge6/index.html" target="_blank"><div class="square"><h3><u>CHALLENGE 1</u></h3></div></a>
-            <div class="square"><h3><u>CHALLENGE 2</u></h3></div>
-            <div class="square"><h3><u>CHALLENGE 3</u></h3></div>
-            <div class="square"><h3><u>CHALLENGE 4</u></h3></div>
+            <div class="square">
+                <h3>CHALLENGE 13</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag13" placeholder="Enter your flag">
+                    <button onclick="c13(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 14</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag14" placeholder="Enter your flag">
+                    <button onclick="c14(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 15</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag15" placeholder="Enter your flag">
+                    <button onclick="c15(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square">
+                <h3>CHALLENGE 16</h3>
+                <a href="#" target="_blank">Link</a>
+                <p>
+                    <input type="text" id="flag16" placeholder="Enter your flag">
+                    <button onclick="c16(); total();">Submit</button>
+                </p>
+            </div>
+            <div class="square points">
+                <h3>Points</h3>
+                <p id="osint">0</p>                
+            </div>
         </div>
+    </div>
+    <div class="container">
+        <h1>Total score: <span id="total">0</span></h1>
     </div>
 </body>
 </html>
