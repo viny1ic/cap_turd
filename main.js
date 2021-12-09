@@ -1,6 +1,6 @@
 function c1(){
     var flag=document.getElementById("flag1").value ;
-    if (flag == "12345"){
+    if (md5(flag) == "c6f11fe5c5b4c68ca9cef02ce27059bd"){
         m=document.getElementById("web").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -9,7 +9,7 @@ function c1(){
 }
 function c2(){
     var flag=document.getElementById("flag2").value ;
-    if (flag== "12345"){
+    if (md5(flag)== "7aed653cee9fc30c621ae5f83814ccef"){
         m=document.getElementById("web").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -18,7 +18,7 @@ function c2(){
 }
 function c3(){
     var flag=document.getElementById("flag3").value ;
-    if (flag== "12345"){
+    if (md5(flag)== "02931f6d23cb734df678621de9d6be86"){
         m=document.getElementById("web").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -27,7 +27,7 @@ function c3(){
 }
 function c4(){
     var flag=document.getElementById("flag4").value ;
-    if (flag== "12345"){
+    if (md5(flag)== "4f7ece9c65989a3154c1adeebb7234f1"){
         m=document.getElementById("web").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -36,7 +36,7 @@ function c4(){
 }
 function c5(){
     var flag=document.getElementById("flag5").value ;
-    if (flag== "12345"){
+    if (md5(flag)== "d0e48859d946bf813e11bf263133ee9d"){
         m=document.getElementById("crypto").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -45,7 +45,7 @@ function c5(){
 }
 function c6(){
     var flag=document.getElementById("flag6").value ;
-    if (flag== "12345"){
+    if (md5(flag)== "6cd0e6601f4e0902dd58167d06cfec23"){
         m=document.getElementById("crypto").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -54,7 +54,7 @@ function c6(){
 }
 function c7(){
     var flag=document.getElementById("flag7").value ;
-    if (flag== "12345"){
+    if (md5(flag)== "08d31258c3e37aa16a00e2ca7af4cb8c"){
         m=document.getElementById("crypto").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -63,7 +63,7 @@ function c7(){
 }
 function c8(){
     var flag=document.getElementById("flag8").value ;
-    if (flag== "12345"){
+    if (md5(flag)== "08d31258c3e37aa16a00e2ca7af4cb8c"){
         m=document.getElementById("crypto").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -72,7 +72,7 @@ function c8(){
 }
 function c9(){
     var flag=document.getElementById("flag9").value ;
-    if (flag== "12345"){
+    if (md5(flag)== "d51cff7b638044e0154b2d1ab4fdb2a6"){
         m=document.getElementById("reverse").innerHTML;
         n=parseInt(m);
         n=n+10;
