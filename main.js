@@ -20,7 +20,7 @@ function c2(){
 }
 function c3(){
     var flag=document.getElementById("flag3").value ;
-    if (md5(flag)== "02931f6d23cb734df678621de9d6be86"){
+    if (md5(flag)== "d51cff7b638044e0154b2d1ab4fdb2a6"){
         m=document.getElementById("web").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -30,7 +30,7 @@ function c3(){
 }
 function c4(){
     var flag=document.getElementById("flag4").value ;
-    if (md5(flag)== "4f7ece9c65989a3154c1adeebb7234f1"){
+    if (md5(flag)== "f5e3f10f422350a9d18d3d06dc4da71e"){
         m=document.getElementById("web").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -40,7 +40,7 @@ function c4(){
 }
 function c5(){
     var flag=document.getElementById("flag5").value ;
-    if (md5(flag)== "d0e48859d946bf813e11bf263133ee9d"){
+    if (md5(flag)== "02931f6d23cb734df678621de9d6be86"){
         m=document.getElementById("crypto").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -50,7 +50,7 @@ function c5(){
 }
 function c6(){
     var flag=document.getElementById("flag6").value ;
-    if (md5(flag)== "6cd0e6601f4e0902dd58167d06cfec23"){
+    if (md5(flag)== "d0e48859d946bf813e11bf263133ee9d"){
         m=document.getElementById("crypto").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -60,7 +60,7 @@ function c6(){
 }
 function c7(){
     var flag=document.getElementById("flag7").value ;
-    if (md5(flag)== "08d31258c3e37aa16a00e2ca7af4cb8c"){
+    if (md5(flag)== "35e55b1d642877e8e2e1033125e50caf"){
         m=document.getElementById("crypto").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -80,7 +80,7 @@ function c8(){
 }
 function c9(){
     var flag=document.getElementById("flag9").value ;
-    if (md5(flag)== "d51cff7b638044e0154b2d1ab4fdb2a6"){
+    if (md5(flag)== "4f7ece9c65989a3154c1adeebb7234f1"){
         m=document.getElementById("reverse").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -90,7 +90,7 @@ function c9(){
 }
 function c10(){
     var flag=document.getElementById("flag10").value ;
-    if (flag== "12345"){
+    if (md5(flag) == "08d31258c3e37aa16a00e2ca7af4cb8c"){
         m=document.getElementById("reverse").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -120,7 +120,7 @@ function c12(){
 }
 function c13(){
     var flag=document.getElementById("flag13").value ;
-    if (flag== "12345"){
+    if (md5(flag)== "6cd0e6601f4e0902dd58167d06cfec23"){
         m=document.getElementById("osint").innerHTML;
         n=parseInt(m);
         n=n+10;
@@ -130,7 +130,7 @@ function c13(){
 }
 function c14(){
     var flag=document.getElementById("flag14").value ;
-    if (flag== "12345"){
+    if (md5(flag)== "08d31258c3e37aa16a00e2ca7af4cb8c"){
         m=document.getElementById("osint").innerHTML;
         n=parseInt(m);
         n=n+10;
