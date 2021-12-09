@@ -5,6 +5,7 @@ function c1(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("web").innerHTML= n;
+        document.getElementById("btn1").disabled = true;
     }
 }
 function c2(){
@@ -14,6 +15,7 @@ function c2(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("web").innerHTML= n;
+        document.getElementById("btn2").disabled = true;
     }
 }
 function c3(){
@@ -23,6 +25,7 @@ function c3(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("web").innerHTML= n;
+        document.getElementById("btn3").disabled = true;
     }
 }
 function c4(){
@@ -32,6 +35,7 @@ function c4(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("web").innerHTML= n;
+        document.getElementById("btn4").disabled = true;
     }
 }
 function c5(){
@@ -41,6 +45,7 @@ function c5(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("crypto").innerHTML= n;
+        document.getElementById("btn5").disabled = true;
     }
 }
 function c6(){
@@ -50,6 +55,7 @@ function c6(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("crypto").innerHTML= n;
+        document.getElementById("btn6").disabled = true;
     }
 }
 function c7(){
@@ -59,6 +65,7 @@ function c7(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("crypto").innerHTML= n;
+        document.getElementById("btn7").disabled = true;
     }
 }
 function c8(){
@@ -68,6 +75,7 @@ function c8(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("crypto").innerHTML= n;
+        document.getElementById("btn8").disabled = true;
     }
 }
 function c9(){
@@ -77,6 +85,7 @@ function c9(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("reverse").innerHTML= n;
+        document.getElementById("btn9").disabled = true;
     }
 }
 function c10(){
@@ -86,6 +95,7 @@ function c10(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("reverse").innerHTML= n;
+        document.getElementById("btn10").disabled = true;
     }
 }
 function c11(){
@@ -95,6 +105,7 @@ function c11(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("reverse").innerHTML= n;
+        document.getElementById("btn11").disabled = true;
     }
 }
 function c12(){
@@ -104,6 +115,7 @@ function c12(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("reverse").innerHTML= n;
+        document.getElementById("btn12").disabled = true;
     }
 }
 function c13(){
@@ -113,6 +125,7 @@ function c13(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("osint").innerHTML= n;
+        document.getElementById("btn13").disabled = true;
     }
 }
 function c14(){
@@ -122,6 +135,7 @@ function c14(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("osint").innerHTML= n;
+        document.getElementById("btn14").disabled = true;
     }
 }
 function c15(){
@@ -131,6 +145,7 @@ function c15(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("osint").innerHTML= n;
+        document.getElementById("btn15").disabled = true;
     }
 }
 function c16(){
@@ -140,6 +155,7 @@ function c16(){
         n=parseInt(m);
         n=n+10;
         document.getElementById("osint").innerHTML= n;
+        document.getElementById("btn16").disabled = true;
     }
 }
 function total(){
